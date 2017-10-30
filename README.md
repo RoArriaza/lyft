@@ -1,92 +1,24 @@
-# Lyft
-
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-***
-
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
-
-![Lyft Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+# Lyft 
+ 
+### Descripción general: 
+Este repositorio es el resultado de un ejercicio de maquetación utilizando HTML y CSS como base para diagramar y dar estilo al contenido. Esto sin considerar su funcionalidad de origen (enlaces, despegables, etc). 
+El propósito del ejercicio es lograr una réplica "pixel perfect", para ello me apoyé en la extensión de Chrome "Page Ruler" para medir los píxeles utilizados en la página original, no se utilizaron las medidas exactas, sino fueron generadoras de parámetros más exactos para adaptarle a la pantalla de trabajo. Cabe señalar que en la imagen del reto no fue posible utilizarle, así como tampoco en el gif del footer. 
+El formato de letra fue dado junto a las instrucciones del reto. Del mismo modo, se facilitó el gif inicial y las direcciones de los vídeos, aunque no todas estaban operativas. Los íconos fueron obtenidos desde: https://icomoon.io 
+  
+### ¿Cómo se elaboró la réplica? 
+Para la réplica se establecieron distintas secciones, con el propósito de facilitar el proceso de maquetación. Para este caso particular se siguió una división natural dada por los distintos background. De este modo, la división quedó en un total sietesecciones: menú, imagen, cuadro de formulario, vídeo 1, vídeo 2, vídeo 3, footer. 
+Teniendo presente la división, se inició la redacción del código HTML y CSS en paralelo, es decir, sección por sección. Esto permitió visualizar en manera –casi- instantánea el avance de la página; algo similar ocurrió con cada sección al permitir el inicio y finalización del proceso (ajustando colores, píxeles, font, etc.). 
+Para hacer del proceso más sencillo todos los elementos fueron encapsulados en <div> con distintas clases, las que hacían referencia directa a la posición, función o elemento que acompañaban.  Por otra parte, en el CSS cada div fue ubicado haciendo uso de la guía "outline",  para establecer visualmente sus límites y moverle con mayor facilidad dentro de la página. Seguidamente, se le dio a cada elemento un heigth y un width, para determinar el espacio por ocupar en la maqueta. 
+La imagen principal corresponde a un gif, proporcionado al inicio del reto, que se ubicó como background, para la sección izquierda, frente al formulario y que cubriese, además, el fondo del menú. 
+El formulario fue ubicado en un cuadro con background blanco. Para la línea del formulario se utilizó un <input> al que se le borraron los bordes laterales y superior; cambiándole color al borde inferior y ajustando las medidas para alcanzar un "pixel perfect". 
+Los vídeos fueron extraídos desde youtube y luego se ajustó el tamaño de la ventana, se quitó la posibilidad de visualización a pantalla completa, al igual que en los vídeos originales de la página (actual). El texto fue agregado dándoles el mismo estilo CSS a los tres bloques, aunque se les ajustaron los márgenes para ubicarles según correspondiese al original. 
+Por último, para el <footer> se dividió la sección en seis nuevas secciones y los textos fueron agrupados utilizando listas (<li>). Las imágenes fueron agrupadas en un <div> dándoles a cada una medidas personalizadas para alcanzar una mejor visualización del logo. Los iconos fueron rodeados por un borde blanco y la línea fue generada por un <hr> al que se le dio medidas en CSS. Por último, la línea final fue extraída desde la página original del sitio. 
+ 
+### Resultado final: 
+Es posible revisar el resultado final en:  
+https://roarriaza.github.io/lyf7 
+ 
+ 
+##### Este archivo es la versión 0.0.1 
+##### Proyecto realizado por RoArriaza 
+ 
