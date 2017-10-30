@@ -23,9 +23,6 @@ Los vídeos fueron extraídos desde youtube y luego se ajustó el tamaño de la 
 
 Por último, para el <footer> se dividió la sección en seis nuevas secciones y los textos fueron agrupados utilizando listas "li". Las imágenes fueron agrupadas en un <div> dándoles a cada una medidas personalizadas para alcanzar una mejor visualización del logo. Los iconos fueron rodeados por un borde blanco y la línea fue generada por un <hr> al que se le dio medidas en CSS. Por último, la línea final fue extraída desde la página original del sitio. 
  
-### Resultado final: 
-Es posible revisar el resultado final en:  
-https://roarriaza.github.io/lyft
  
  
 ##### Este archivo es la versión 0.0.1 
