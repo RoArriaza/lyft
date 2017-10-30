@@ -25,7 +25,7 @@ Por último, para el <footer> se dividió la sección en seis nuevas secciones y
  
 ### Resultado final: 
 Es posible revisar el resultado final en:  
-https://roarriaza.github.io/lyf7 
+https://roarriaza.github.io/lyft
  
  
 ##### Este archivo es la versión 0.0.1 
