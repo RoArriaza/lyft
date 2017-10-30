@@ -21,7 +21,7 @@ El formulario fue ubicado en un cuadro con background blanco. Para la línea del
 
 Los vídeos fueron extraídos desde youtube y luego se ajustó el tamaño de la ventana, se quitó la posibilidad de visualización a pantalla completa, al igual que en los vídeos originales de la página (actual). El texto fue agregado dándoles el mismo estilo CSS a los tres bloques, aunque se les ajustaron los márgenes para ubicarles según correspondiese al original. 
 
-Por último, para el <footer> se dividió la sección en seis nuevas secciones y los textos fueron agrupados utilizando listas "li". Las imágenes fueron agrupadas en un <div> dándoles a cada una medidas personalizadas para alcanzar una mejor visualización del logo. Los iconos fueron rodeados por un borde blanco y la línea fue generada por un <hr> al que se le dio medidas en CSS. Por último, la línea final fue extraída desde la página original del sitio. 
+Por último, para el <footer> se dividió la sección en seis nuevas secciones y los textos fueron agrupados utilizando listas "li". Las imágenes fueron agrupadas en un <div> dándoles a cada una medidas personalizadas para alcanzar una mejor visualización del logo. Los iconos fueron rodeados por un borde blanco y la línea fue generada por un "hr" al que se le dio medidas en CSS. Por último, la línea final fue extraída desde la página original del sitio. 
  
  
  
