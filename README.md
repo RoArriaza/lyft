@@ -25,6 +25,9 @@ Por último, para el "footer" se dividió la sección en seis nuevas secciones y
  
  
  
+ 
+ 
+ 
 ##### Este archivo es la versión 0.0.1 
 ##### Proyecto realizado por RoArriaza 
  
